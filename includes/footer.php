@@ -1,79 +1,86 @@
 <?php
-// Site Footer Component
+// Footer Component - Grounded Deep Emerald Light Theme
 ?>
+
+<div class="container my-4">
+    <?php include __DIR__ . '/developer_card.php'; ?>
+</div>
+
 <footer class="site-footer mt-5">
     <div class="container">
         <div class="row g-4">
-            <!-- Business Info -->
+            <!-- Col 1: Brand & Bio -->
             <div class="col-lg-4 col-md-6">
                 <div class="d-flex align-items-center mb-3">
-                    <div class="bg-gold text-dark rounded-circle me-2 d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
-                        <i class="bi bi-moon-stars-fill fs-5"></i>
+                    <div class="navbar-brand-logo rounded-circle me-2 d-flex align-items-center justify-content-center">
+                        <i class="bi bi-moon-stars-fill text-dark fs-5"></i>
                     </div>
-                    <h5 class="fw-bold text-white mb-0">AL-HABIB TOURS & TRAVELS</h5>
+                    <div>
+                        <h4 class="fw-extrabold text-white mb-0">AL-HABIB</h4>
+                        <span class="text-gold small text-uppercase tracking-wider fw-bold">TOURS & TRAVELS</span>
+                    </div>
                 </div>
-                <p class="small text-white-70 mb-3">
-                    Your trusted travel partner for sacred Hajj and Umrah pilgrimages. Providing scholar-backed educational guidance, luxury & economy packages, and dedicated assistance.
+                <p class="small text-white-80 mb-3 fw-medium">
+                    Authorized Hajj & Umrah travel agency based in Bangarmau, Unnao (UP). Group departures from Lucknow and Delhi with luxury hotel stays, complete Ziyarat, and scholar guidance.
                 </p>
-                <div class="card bg-emerald-soft text-dark p-3 rounded-3 border-0">
-                    <div class="fw-bold mb-1"><i class="bi bi-person-fill text-gold me-1"></i> Hafiz Yusuf Malik</div>
-                    <div class="small"><i class="bi bi-telephone-fill me-1 text-gold"></i> +91 7860432995</div>
-                    <div class="small"><i class="bi bi-geo-alt-fill me-1 text-gold"></i> Lucknow Road, Bangarmau, Unnao, UP, India</div>
+                <div class="small text-white-80">
+                    <p class="mb-1"><i class="bi bi-geo-alt-fill text-gold me-2"></i> Lucknow Road, Bangarmau, Unnao, UP</p>
+                    <p class="mb-1"><i class="bi bi-person-fill text-gold me-2"></i> Lead Guide: <strong>Hafiz Yusuf Malik</strong></p>
+                    <p class="mb-0"><i class="bi bi-telephone-fill text-gold me-2"></i> <strong>+91 7860432995</strong></p>
                 </div>
             </div>
 
-            <!-- Quick Links -->
+            <!-- Col 2: Quick Links -->
             <div class="col-lg-2 col-md-6">
-                <h6 class="fw-bold text-gold mb-3 text-uppercase tracking-wider">Quick Links</h6>
-                <ul class="list-unstyled mb-0">
-                    <li class="mb-2"><a href="index.php"><i class="bi bi-chevron-right me-1"></i> Home</a></li>
-                    <li class="mb-2"><a href="miqat.php"><i class="bi bi-chevron-right me-1"></i> Miqat System</a></li>
-                    <li class="mb-2"><a href="tanim.php"><i class="bi bi-chevron-right me-1"></i> Tan'im & Al-Hill</a></li>
-                    <li class="mb-2"><a href="sources.php"><i class="bi bi-chevron-right me-1"></i> Verified Sources</a></li>
-                    <li class="mb-2"><a href="packages.php"><i class="bi bi-chevron-right me-1"></i> Tour Packages</a></li>
-                    <li class="mb-2"><a href="contact.php"><i class="bi bi-chevron-right me-1"></i> Contact Us</a></li>
+                <h6 class="fw-extrabold text-gold text-uppercase tracking-wider mb-3">Quick Links</h6>
+                <ul class="list-unstyled small mb-0">
+                    <li class="mb-2"><a href="index.php"><i class="bi bi-chevron-right me-1 text-gold"></i> Home</a></li>
+                    <li class="mb-2"><a href="umrah_guide.php"><i class="bi bi-chevron-right me-1 text-gold"></i> Umrah Guide & Duas</a></li>
+                    <li class="mb-2"><a href="miqat.php"><i class="bi bi-chevron-right me-1 text-gold"></i> Miqat Guide</a></li>
+                    <li class="mb-2"><a href="tanim.php"><i class="bi bi-chevron-right me-1 text-gold"></i> Tan'im & Al-Hill</a></li>
+                    <li class="mb-2"><a href="sources.php"><i class="bi bi-chevron-right me-1 text-gold"></i> Verified Sources</a></li>
+                    <li class="mb-2"><a href="packages.php"><i class="bi bi-chevron-right me-1 text-gold"></i> Tour Packages</a></li>
+                    <li class="mb-0"><a href="contact.php"><i class="bi bi-chevron-right me-1 text-gold"></i> Contact Us</a></li>
                 </ul>
             </div>
 
-            <!-- Educational Knowledge -->
+            <!-- Col 3: Fiqh Modules -->
             <div class="col-lg-3 col-md-6">
-                <h6 class="fw-bold text-gold mb-3 text-uppercase tracking-wider">Miqat Educational Modules</h6>
-                <ul class="list-unstyled mb-0 small">
-                    <li class="mb-2"><a href="miqat.php#decisionTree"><i class="bi bi-diagram-3 me-1"></i> Interactive Decision Tree</a></li>
-                    <li class="mb-2"><a href="miqat.php#damChecker"><i class="bi bi-calculator me-1"></i> Dam Lagega Ya Nahi? Tool</a></li>
-                    <li class="mb-2"><a href="miqat.php#airTravel"><i class="bi bi-airplane me-1"></i> Flying to Jeddah for Umrah?</a></li>
-                    <li class="mb-2"><a href="miqat.php#fiveMiqats"><i class="bi bi-geo-alt me-1"></i> 5 Prophetic Miqats Map</a></li>
-                    <li class="mb-2"><a href="miqat.php#commonMistakes"><i class="bi bi-exclamation-circle me-1"></i> Common Miqat Mistakes</a></li>
-                    <li class="mb-2"><a href="miqat.php#duas"><i class="bi bi-file-text me-1"></i> Niyyah & Talbiyah Duas</a></li>
+                <h6 class="fw-extrabold text-gold text-uppercase tracking-wider mb-3">Fiqh Educational Modules</h6>
+                <ul class="list-unstyled small mb-0">
+                    <li class="mb-2"><a href="miqat.php#airTravel"><i class="bi bi-airplane-fill me-1 text-gold"></i> Air Travel Miqat Rules</a></li>
+                    <li class="mb-2"><a href="miqat.php#crossedMiqat"><i class="bi bi-exclamation-triangle-fill me-1 text-gold"></i> Crossed Miqat Scenarios</a></li>
+                    <li class="mb-2"><a href="miqat.php#commonMistakes"><i class="bi bi-x-circle-fill me-1 text-gold"></i> Common Miqat Mistakes</a></li>
+                    <li class="mb-2"><a href="miqat.php#damExplained"><i class="bi bi-shield-fill-check me-1 text-gold"></i> Dam Rules Explained</a></li>
+                    <li class="mb-0"><a href="tanim.php#alHill"><i class="bi bi-building-fill-check me-1 text-gold"></i> Tan'im & Al-Hill Guide</a></li>
                 </ul>
             </div>
 
-            <!-- Trilingual Notice & Contact CTA -->
+            <!-- Col 4: Contact & Booking -->
             <div class="col-lg-3 col-md-6">
-                <h6 class="fw-bold text-gold mb-3 text-uppercase tracking-wider">Bookings & Inquiries</h6>
-                <p class="small mb-3">Have questions about visa processing, group departures from Lucknow/Delhi, or custom packages?</p>
-                <div class="d-grid gap-2">
-                    <a href="https://wa.me/917860432995?text=Assalamu%20Alaikum,%20I%20have%20an%20Umrah%20inquiry." target="_blank" class="btn btn-gold btn-sm fw-bold">
-                        <i class="bi bi-whatsapp me-1"></i> Chat on WhatsApp
-                    </a>
-                    <a href="tel:+917860432995" class="btn btn-outline-light btn-sm">
-                        <i class="bi bi-telephone me-1"></i> Call +91 7860432995
-                    </a>
-                </div>
+                <h6 class="fw-extrabold text-gold text-uppercase tracking-wider mb-3">Bookings & Support</h6>
+                <p class="small text-white-80 mb-3">
+                    Have questions about Lucknow departures, hotel distance, or Dam rulings?
+                </p>
+                <a href="https://wa.me/917860432995?text=Assalamu%20Alaikum%20Hafiz%20Yusuf%20Malik%20Sahab,%20I%20want%20to%20book%20an%20Umrah%20package." 
+                   target="_blank" class="btn btn-gold btn-sm w-100 fw-bold mb-2 shadow">
+                    <i class="bi bi-whatsapp me-1"></i> WhatsApp Hafiz Yusuf Malik
+                </a>
+                <a href="tel:+917860432995" class="btn btn-outline-light btn-sm w-100 fw-bold">
+                    <i class="bi bi-telephone me-1"></i> Call +91 7860432995
+                </a>
             </div>
         </div>
 
-        <hr class="border-secondary my-4">
+        <hr class="my-4 border-secondary">
 
-        <!-- Fiqh Disclaimer Component -->
-        <?php include_once __DIR__ . '/disclaimer.php'; ?>
-
-        <div class="row align-items-center py-3 small text-white-50">
-            <div class="col-md-6 text-center text-md-start mb-2 mb-md-0">
-                &copy; <?php echo date('Y'); ?> Al-Habib Tours & Travels. All rights reserved. Bangarmau, Unnao, UP.
+        <!-- Bottom Copyright & Developer Credit (Sahil Khan) -->
+        <div class="d-flex flex-wrap justify-content-between align-items-center small text-white-80 gap-2">
+            <div>
+                &copy; <?php echo date('Y'); ?> <strong>Al-Habib Tours & Travels</strong>. All rights reserved.
             </div>
-            <div class="col-md-6 text-center text-md-end">
-                <span>Educational Guidance & Saudi Ministry Guidelines Compliant</span>
+            <div>
+                Designed & Developed in Sadaqah Jariyah by <a href="tel:+918739093014" class="text-gold fw-bold text-decoration-none">Sahil Khan</a> (Software Engineer | Apps & Web | +91 8739093014).
             </div>
         </div>
     </div>
@@ -82,10 +89,9 @@
 <!-- Bootstrap 5 JS Bundle -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-<!-- Custom JS Files -->
+<!-- Custom App Logic -->
 <script src="assets/js/main.js"></script>
 <script src="assets/js/miqat_tree.js"></script>
 <script src="assets/js/dam_checker.js"></script>
-
 </body>
 </html>
