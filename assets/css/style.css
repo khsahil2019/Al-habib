@@ -1,0 +1,357 @@
+/* ==========================================================================
+   Al-Habib Tours & Travels - Master Light Theme System & Local Image Rules
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Noto+Nastaliq+Urdu:wght@400;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap');
+
+:root {
+    --primary-emerald: #044e3a;
+    --emerald-dark: #022c22;
+    --emerald-medium: #057a58;
+    --emerald-light: #10b981;
+    --emerald-soft: #e6f4ea;
+    
+    --gold-primary: #d97706;
+    --gold-medium: #f59e0b;
+    --gold-light: #fbbf24;
+    --gold-soft: #fffbeb;
+    --gold-gradient: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+    
+    --bg-light: #f8fafc;
+    --card-bg: #ffffff;
+    
+    /* Light Theme High Contrast Text Definitions */
+    --text-dark-main: #0f172a;       /* Deep slate for main titles */
+    --text-dark-body: #1e293b;       /* Dark charcoal for body text */
+    --text-emerald-head: #044e3a;    /* Rich emerald for section titles */
+    
+    --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 10px 25px -5px rgba(0, 0, 0, 0.08);
+    --shadow-lg: 0 20px 35px -10px rgba(0, 0, 0, 0.12);
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: var(--bg-light);
+    color: var(--text-dark-body);
+    overflow-x: hidden;
+    line-height: 1.6;
+}
+
+/* Master Header Container - Light Theme */
+.master-header {
+    background: #ffffff;
+    z-index: 1040;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    border-bottom: 2px solid var(--emerald-medium);
+}
+
+/* Top Info Strip - Light Theme */
+.top-info-strip {
+    background: #e6f4ea;
+    border-bottom: 1px solid rgba(4, 78, 58, 0.15);
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: #044e3a;
+}
+
+.top-info-strip a {
+    color: #044e3a !important;
+}
+
+.top-info-strip a:hover {
+    color: var(--gold-primary) !important;
+}
+
+/* Navbar - Light Theme & Single-Line Force */
+.bg-emerald-navbar {
+    background: #ffffff !important;
+    border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.navbar-brand-logo {
+    width: 44px;
+    height: 44px;
+    background: var(--gold-gradient);
+    border: 2px solid #044e3a;
+    box-shadow: 0 0 12px rgba(245, 158, 11, 0.3);
+}
+
+.nav-link {
+    font-weight: 700;
+    color: #0f172a !important;
+    padding: 0.5rem 0.75rem !important;
+    border-radius: 8px;
+    white-space: nowrap !important;
+    font-size: 0.92rem;
+    transition: all 0.25s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: var(--emerald-medium) !important;
+    background: #e6f4ea;
+}
+
+/* Mobile Collapse Styling */
+@media (max-width: 1199.98px) {
+    .navbar-collapse {
+        background: #ffffff;
+        padding: 20px;
+        border-radius: 16px;
+        margin-top: 12px;
+        border: 1px solid rgba(4, 78, 58, 0.2);
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    }
+    
+    .nav-link {
+        padding: 0.8rem 1rem !important;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        white-space: normal !important;
+    }
+}
+
+/* Light Theme Banner */
+.bg-gradient-emerald, .hero-section {
+    background: linear-gradient(135deg, rgba(230, 244, 234, 0.92) 0%, rgba(255, 255, 255, 0.95) 100%), url('../images/kaaba_1.jpg') center/cover no-repeat !important;
+    color: #0f172a !important;
+    position: relative;
+    border-bottom: 1px solid #cbd5e1;
+}
+
+.bg-gradient-emerald h1, .bg-gradient-emerald h2, .bg-gradient-emerald h3, 
+.bg-gradient-emerald p, .bg-gradient-emerald span,
+.hero-section h1, .hero-section h2, .hero-section h3, 
+.hero-section p, .hero-section span {
+    color: #0f172a !important;
+}
+
+.bg-gradient-emerald .text-gold, .hero-section .text-gold {
+    color: #d97706 !important;
+}
+
+.bg-gradient-emerald .lead, .hero-section .lead {
+    color: #334155 !important;
+}
+
+/* Light Theme Cards */
+.glass-card, .card {
+    background: #ffffff !important;
+    border: 1px solid #cbd5e1 !important;
+    border-radius: 20px;
+    box-shadow: var(--shadow-md);
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    color: #0f172a !important;
+}
+
+.glass-card h1, .glass-card h2, .glass-card h3, .glass-card h4, .glass-card h5, .glass-card h6,
+.glass-card p, .glass-card span, .glass-card li, .glass-card div,
+.card h1, .card h2, .card h3, .card h4, .card h5, .card h6,
+.card p, .card span, .card li, .card div {
+    color: #0f172a !important;
+}
+
+.glass-card:hover, .card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--emerald-medium) !important;
+}
+
+/* HIGH-PRIORITY DISCLAIMER BOX OVERRIDES (Bulleteproof Dark Text) */
+.fiqh-disclaimer-box {
+    background-color: #ffffff !important;
+    border: 1px solid #cbd5e1 !important;
+    border-left: 6px solid #f59e0b !important;
+    color: #0f172a !important;
+    border-radius: 16px !important;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08) !important;
+}
+
+.fiqh-disclaimer-box h1, 
+.fiqh-disclaimer-box h2, 
+.fiqh-disclaimer-box h3, 
+.fiqh-disclaimer-box h4, 
+.fiqh-disclaimer-box h5, 
+.fiqh-disclaimer-box h6, 
+.fiqh-disclaimer-box p, 
+.fiqh-disclaimer-box span, 
+.fiqh-disclaimer-box div,
+.fiqh-disclaimer-box i {
+    color: #0f172a !important;
+}
+
+.fiqh-disclaimer-box .text-emerald-medium {
+    color: #044e3a !important;
+}
+
+.fiqh-disclaimer-box .disclaimer-icon, 
+.fiqh-disclaimer-box .disclaimer-icon i {
+    color: #d97706 !important;
+}
+
+/* Contact Card High-Contrast Rule */
+.contact-card {
+    background-color: #ffffff !important;
+    border: 2px solid #057a58 !important;
+}
+
+.contact-card h1, .contact-card h2, .contact-card h3, .contact-card h4, .contact-card h5, .contact-card h6,
+.contact-card p, .contact-card span, .contact-card div, .contact-card li {
+    color: #0f172a !important;
+}
+
+/* Buttons */
+.btn-gold {
+    background: var(--gold-gradient) !important;
+    color: #000000 !important;
+    font-weight: 800;
+    border: none;
+    box-shadow: 0 4px 15px rgba(245, 158, 11, 0.35);
+    transition: all 0.3s ease;
+}
+
+.btn-gold:hover {
+    background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%) !important;
+    color: #000000 !important;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(245, 158, 11, 0.5);
+}
+
+.btn-emerald {
+    background-color: var(--emerald-medium) !important;
+    color: #ffffff !important;
+    font-weight: 700;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-emerald:hover {
+    background-color: var(--primary-emerald) !important;
+    color: #ffffff !important;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(4, 122, 88, 0.4);
+}
+
+/* Giant 3 Quick Buttons - Light Theme */
+.giant-action-btn {
+    border-radius: 20px;
+    padding: 26px 20px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid #cbd5e1;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    box-shadow: var(--shadow-md);
+    background: #ffffff;
+}
+
+.giant-action-btn:hover {
+    transform: translateY(-6px);
+    border-color: var(--emerald-medium);
+    box-shadow: var(--shadow-lg);
+}
+
+/* Floating Contact Widget */
+.floating-contact-widget {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.floating-btn {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    color: white !important;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    text-decoration: none;
+}
+
+.floating-btn-wa { background: #25d366; }
+.floating-btn-phone { background: var(--emerald-medium); }
+
+.floating-btn:hover {
+    transform: scale(1.15) rotate(5deg);
+    color: white !important;
+}
+
+/* Stats Counter Box - Light Theme */
+.stat-box {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 16px;
+    padding: 16px 12px;
+    text-align: center;
+    box-shadow: var(--shadow-sm);
+}
+
+.stat-box h3 {
+    color: #d97706 !important;
+}
+
+.stat-box span {
+    color: #1e293b !important;
+}
+
+/* Grounded Dark Emerald Footer for Contrast Balance */
+.site-footer {
+    background: #044e3a !important;
+    color: #ffffff !important;
+    padding: 70px 0 30px;
+    border-top: 4px solid var(--gold-medium);
+}
+
+.site-footer h5, .site-footer h6, .site-footer p, .site-footer span {
+    color: #ffffff !important;
+}
+
+.site-footer a {
+    color: #f1f5f9 !important;
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    color: var(--gold-light) !important;
+}
+
+/* Multi-language Typography Support */
+body[lang="hi"], .lang-hi {
+    font-family: 'Noto Sans Devanagari', 'Plus Jakarta Sans', sans-serif;
+}
+
+body[lang="ur"], .lang-ur {
+    font-family: 'Amiri', 'Noto Nastaliq Urdu', serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.arabic-font {
+    font-family: 'Amiri', serif;
+    direction: rtl;
+    line-height: 2;
+}
+
+/* Responsive Overrides */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 50px 0 40px;
+    }
+    .display-3 {
+        font-size: 2rem;
+    }
+    .display-5 {
+        font-size: 1.8rem;
+    }
+}

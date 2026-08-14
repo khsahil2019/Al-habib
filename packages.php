@@ -1,0 +1,359 @@
+<?php
+$pageTitle = "Lucknow Umrah Packages 2026/2027 | Al-Habib Tours & Travels";
+include_once __DIR__ . '/includes/header.php';
+?>
+
+<!-- Hero Banner (Clean Light Theme) -->
+<section class="bg-gradient-emerald text-dark py-5 border-bottom">
+    <div class="container text-center py-3">
+        <span class="badge px-4 py-2 rounded-pill mb-3 shadow border border-warning" style="background-color: #f59e0b !important; color: #000000 !important; font-weight: 800 !important; font-size: 0.95rem;">
+            <i class="bi bi-star-fill me-1 text-dark"></i> LUCKNOW & DELHI GROUP DEPARTURES
+        </span>
+        <h1 class="display-5 fw-extrabold mb-3 text-emerald-head">Lucknow Umrah Packages 2026 / 2027</h1>
+        <p class="lead text-secondary max-w-800 mx-auto fw-medium">
+            Benchmarked 15-Day Umrah packages departing directly from Lucknow & Delhi. Guided by Hafiz Yusuf Malik with hotels near Haram, verified Miqat rules, and 24/7 personal group care.
+        </p>
+    </div>
+</section>
+
+<div class="container py-5">
+
+    <!-- 3 MAIN BENCHMARKED PACKAGES -->
+    <div class="text-center mb-5">
+        <span class="badge bg-gold text-dark fw-bold px-3 py-1 mb-2">15-DAY LUCKNOW DEPARTURES</span>
+        <h2 class="fw-extrabold text-dark display-6 mb-2">Choose Your Sacred Umrah Tier</h2>
+        <p class="text-secondary max-w-700 mx-auto fw-medium small">
+            Prices are <em>Starting From</em> rates per person. Final price varies based on travel date, airline fare, hotel distance, and room occupancy.
+        </p>
+    </div>
+
+    <div class="row g-4 mb-5">
+        <!-- 🟢 1. AL-HABIB ECONOMY UMRAH -->
+        <div class="col-lg-4 col-md-6">
+            <div class="card glass-card h-100 border-0 overflow-hidden shadow">
+                <div class="position-relative">
+                    <img src="assets/images/kaaba_1.jpg" class="card-img-top" alt="Al-Habib Economy Umrah Package" style="height: 230px; object-fit: cover;">
+                    <span class="position-absolute top-0 end-0 bg-emerald-medium text-white fw-extrabold px-3 py-1 m-3 rounded-pill small shadow">BUDGET FRIENDLY</span>
+                </div>
+                <div class="card-body p-4 bg-white">
+                    <div class="d-flex align-items-center gap-2 mb-2">
+                        <span class="fs-4">🟢</span>
+                        <h4 class="fw-extrabold text-dark mb-0">Al-Habib Economy</h4>
+                    </div>
+                    <p class="text-muted small mb-3">15 Days | Affordable Umrah for Everyone</p>
+                    
+                    <div class="p-3 bg-emerald-soft rounded-3 mb-3 border border-emerald-medium">
+                        <span class="d-block small text-secondary fw-semibold">Starting From</span>
+                        <span class="fs-3 fw-extrabold text-emerald-medium">₹99,000</span> <span class="small text-muted">/ person (Quad)</span>
+                    </div>
+
+                    <ul class="list-unstyled small text-dark mb-4">
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-emerald-medium me-2"></i> Lucknow / Delhi Return Flights</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-emerald-medium me-2"></i> 3-Star Hotels in Makkah & Madinah</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-emerald-medium me-2"></i> Umrah Visa & Insurance included</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-emerald-medium me-2"></i> Shared AC Transport & Transfers</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-emerald-medium me-2"></i> Guided Makkah & Madinah Ziyarat</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-emerald-medium me-2"></i> Basic Umrah Kit & WhatsApp Support</li>
+                    </ul>
+
+                    <div class="d-grid gap-2">
+                        <a href="https://wa.me/917860432995?text=Assalamu%20Alaikum%20Hafiz%20Yusuf%20Malik%20Sahab,%20I%20want%20to%20book%20Al-Habib%20Economy%20Umrah%20(₹99,000)." 
+                           target="_blank" class="btn btn-gold fw-bold shadow">
+                            <i class="bi bi-whatsapp me-1"></i> Book / Enquire Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ⭐ 2. AL-HABIB COMFORT UMRAH (MOST POPULAR) -->
+        <div class="col-lg-4 col-md-6">
+            <div class="card glass-card h-100 border-2 border-warning overflow-hidden shadow-lg position-relative">
+                <div class="position-relative">
+                    <img src="assets/images/madinah_1.jpg" class="card-img-top" alt="Al-Habib Comfort Umrah Package" style="height: 230px; object-fit: cover;">
+                    <span class="position-absolute top-0 end-0 bg-gold text-dark fw-extrabold px-3 py-1 m-3 rounded-pill small shadow"><i class="bi bi-star-fill me-1"></i> MOST POPULAR</span>
+                </div>
+                <div class="card-body p-4 bg-white">
+                    <div class="d-flex align-items-center gap-2 mb-2">
+                        <span class="fs-4">⭐</span>
+                        <h4 class="fw-extrabold text-dark mb-0">Al-Habib Comfort</h4>
+                    </div>
+                    <p class="text-muted small mb-3">15 Days | Our Most Popular Family Package</p>
+                    
+                    <div class="p-3 bg-gold-soft rounded-3 mb-3 border border-warning">
+                        <span class="d-block small text-secondary fw-semibold">Starting From</span>
+                        <span class="fs-3 fw-extrabold text-gold">₹1,19,000</span> <span class="small text-muted">/ person (Quad)</span>
+                    </div>
+
+                    <ul class="list-unstyled small text-dark mb-4">
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-emerald-medium me-2"></i> Lucknow / Delhi Direct Flights</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-emerald-medium me-2"></i> 4-Star Hotels Close to Haram</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-emerald-medium me-2"></i> Breakfast & Meal Plan included</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-emerald-medium me-2"></i> Luxury AC Group Coach Transport</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-emerald-medium me-2"></i> Dedicated Group Coordinator & Scholar</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-emerald-medium me-2"></i> Elderly Pilgrim Care & Standard Kit</li>
+                    </ul>
+
+                    <div class="d-grid gap-2">
+                        <a href="https://wa.me/917860432995?text=Assalamu%20Alaikum%20Hafiz%20Yusuf%20Malik%20Sahab,%20I%20want%20to%20book%20Al-Habib%20Comfort%20Umrah%20(₹1,19,000)." 
+                           target="_blank" class="btn btn-gold btn-lg fw-extrabold shadow">
+                            <i class="bi bi-whatsapp me-1"></i> Book / Enquire Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 👑 3. AL-HABIB PREMIUM UMRAH -->
+        <div class="col-lg-4 col-md-6">
+            <div class="card glass-card h-100 border-0 overflow-hidden shadow">
+                <div class="position-relative">
+                    <img src="assets/images/hajj_1.jpg" class="card-img-top" alt="Al-Habib Premium Umrah Package" style="height: 230px; object-fit: cover;">
+                    <span class="position-absolute top-0 end-0 bg-dark-emerald text-gold fw-extrabold px-3 py-1 m-3 rounded-pill small shadow border border-warning">VIP LUXURY</span>
+                </div>
+                <div class="card-body p-4 bg-white">
+                    <div class="d-flex align-items-center gap-2 mb-2">
+                        <span class="fs-4">👑</span>
+                        <h4 class="fw-extrabold text-dark mb-0">Al-Habib Premium</h4>
+                    </div>
+                    <p class="text-muted small mb-3">15 Days | Luxury & Maximum Personal Care</p>
+                    
+                    <div class="p-3 bg-emerald-soft rounded-3 mb-3 border border-emerald-medium">
+                        <span class="d-block small text-secondary fw-semibold">Starting From</span>
+                        <span class="fs-3 fw-extrabold text-emerald-medium">₹1,39,000</span> <span class="small text-muted">/ person (Twin)</span>
+                    </div>
+
+                    <ul class="list-unstyled small text-dark mb-4">
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-emerald-medium me-2"></i> Premium Direct Airline Options</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-emerald-medium me-2"></i> 5-Star Luxury Hotels Near Haram Gate</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-emerald-medium me-2"></i> Full Buffet Meal Plan & Zamzam</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-emerald-medium me-2"></i> Private Transfer & Private Ziyarat Option</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-emerald-medium me-2"></i> Senior Citizen & Wheelchair Support</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-emerald-medium me-2"></i> Premium Umrah Kit & Priority Care</li>
+                    </ul>
+
+                    <div class="d-grid gap-2">
+                        <a href="https://wa.me/917860432995?text=Assalamu%20Alaikum%20Hafiz%20Yusuf%20Malik%20Sahab,%20I%20want%20to%20book%20Al-Habib%20Premium%20Umrah%20(₹1,39,000)." 
+                           target="_blank" class="btn btn-gold fw-bold shadow">
+                            <i class="bi bi-whatsapp me-1"></i> Book / Enquire Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- DETAILED 15-DAY ITINERARY BREAKDOWN -->
+    <div class="card glass-card border-0 p-4 p-md-5 mb-5 shadow-sm">
+        <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
+            <div>
+                <span class="badge bg-gold text-dark px-3 py-1 mb-2 fw-bold"><i class="bi bi-calendar-week-fill me-1"></i> COMPLETE TOUR SCHEDULE</span>
+                <h3 class="fw-extrabold text-dark mb-0">Standard 15-Day Umrah Itinerary</h3>
+            </div>
+            <span class="badge bg-emerald-soft text-emerald-medium border border-emerald-medium px-3 py-2 fw-bold">Lucknow & Delhi Flights</span>
+        </div>
+
+        <div class="row g-3">
+            <!-- Days 1-7 Makkah -->
+            <div class="col-md-6">
+                <div class="p-3 bg-light rounded-4 border h-100">
+                    <h5 class="fw-extrabold text-emerald-medium mb-3 border-bottom pb-2">
+                        <i class="bi bi-geo-alt-fill text-gold me-2"></i> Days 1 to 7: Makkah Mukarramah
+                    </h5>
+                    <ul class="list-unstyled small text-dark mb-0">
+                        <li class="mb-3">
+                            <strong class="text-dark d-block">Day 1 — Lucknow → Jeddah ✈️</strong>
+                            Lucknow departure, enter Ihram before parallel flight Miqat, Jeddah arrival, AC transfer to Makkah hotel check-in.
+                        </li>
+                        <li class="mb-3">
+                            <strong class="text-dark d-block">Day 2 — Sacred Umrah Execution 🕋</strong>
+                            Rest, group Umrah guidance by Hafiz Yusuf Malik team, perform Tawaf, Sa'i, and Halq/Qasr. Umrah completed.
+                        </li>
+                        <li class="mb-3">
+                            <strong class="text-dark d-block">Day 3 & 4 — Makkah Ziyarat 🚌</strong>
+                            Haram visits, personal ibadah, guided Ziyarat to Mina, Arafat, Muzdalifah & Jabal al-Noor (Cave Hira view).
+                        </li>
+                        <li class="mb-0">
+                            <strong class="text-dark d-block">Days 5 to 7 — Ibadah & Nafl Tawaf</strong>
+                            Free days for Nafl Tawaf, Quran recitation, shopping, and personal prayers at Al-Masjid al-Haram.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Days 8-15 Madinah -->
+            <div class="col-md-6">
+                <div class="p-3 bg-light rounded-4 border h-100">
+                    <h5 class="fw-extrabold text-emerald-medium mb-3 border-bottom pb-2">
+                        <i class="bi bi-geo-alt-fill text-gold me-2"></i> Days 8 to 15: Madinah Munawwarah
+                    </h5>
+                    <ul class="list-unstyled small text-dark mb-0">
+                        <li class="mb-3">
+                            <strong class="text-dark d-block">Day 8 — Makkah → Madinah 🚌</strong>
+                            Hotel checkout, travel by luxury AC bus to Madinah Munawwarah, check-in near Masjid an-Nabawi.
+                        </li>
+                        <li class="mb-3">
+                            <strong class="text-dark d-block">Day 9 & 10 — Madinah Ziyarat 🕌</strong>
+                            Prayers at Al-Masjid an-Nabawi, guided Ziyarat to Masjid Quba (first mosque), Mount Uhud, and Masjid Qiblatain.
+                        </li>
+                        <li class="mb-3">
+                            <strong class="text-dark d-block">Days 11 to 14 — Rawdah & Ibadah</strong>
+                            Riaz ul-Jannah (Rawdah Mubarak) visit according to Nusuk permit booking, personal ibadah, and shopping.
+                        </li>
+                        <li class="mb-0">
+                            <strong class="text-dark d-block">Day 15 — Madinah → India ✈️</strong>
+                            Final prayers, checkout, airport transfer, direct return flight, and safe arrival in India.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FULL COMPARISON MATRIX TABLE -->
+    <div class="card glass-card border-0 p-4 p-md-5 mb-5 shadow-sm overflow-hidden">
+        <div class="text-center mb-4">
+            <span class="badge bg-emerald-medium text-white px-3 py-1 mb-2 fw-bold">SIDE-BY-SIDE MATRIX</span>
+            <h3 class="fw-extrabold text-dark display-6 mb-2">Package Comparison Table</h3>
+            <p class="text-secondary small fw-medium">Review exact features included across Economy, Comfort, and Premium packages.</p>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table table-bordered align-middle text-center small mb-0">
+                <thead class="bg-emerald-soft text-dark">
+                    <tr>
+                        <th class="text-start py-3 fs-6">Package Feature</th>
+                        <th class="py-3 fs-6">🟢 Economy</th>
+                        <th class="py-3 fs-6 bg-gold-soft border-warning">⭐ Comfort (Popular)</th>
+                        <th class="py-3 fs-6">👑 Premium VIP</th>
+                    </tr>
+                </thead>
+                <tbody class="text-dark">
+                    <tr>
+                        <td class="text-start fw-bold">Duration</td>
+                        <td>15 Days</td>
+                        <td class="bg-gold-soft fw-bold">15 Days</td>
+                        <td>15 Days</td>
+                    </tr>
+                    <tr>
+                        <td class="text-start fw-bold">Starting Price (per person)</td>
+                        <td class="fw-extrabold text-emerald-medium fs-6">₹99,000*</td>
+                        <td class="bg-gold-soft fw-extrabold text-gold fs-6">₹1,19,000*</td>
+                        <td class="fw-extrabold text-emerald-medium fs-6">₹1,39,000*</td>
+                    </tr>
+                    <tr>
+                        <td class="text-start fw-bold">Flight Ticket</td>
+                        <td>Economy Return</td>
+                        <td class="bg-gold-soft">Economy Direct</td>
+                        <td>Premium / Direct Option</td>
+                    </tr>
+                    <tr>
+                        <td class="text-start fw-bold">Makkah Hotel Category</td>
+                        <td>3-Star Hotel</td>
+                        <td class="bg-gold-soft fw-semibold">4-Star (Near Haram)</td>
+                        <td class="fw-bold text-emerald-medium">5-Star (Near Gate)</td>
+                    </tr>
+                    <tr>
+                        <td class="text-start fw-bold">Madinah Hotel Category</td>
+                        <td>3-Star Hotel</td>
+                        <td class="bg-gold-soft fw-semibold">4-Star (Markaziah)</td>
+                        <td class="fw-bold text-emerald-medium">5-Star (Luxury)</td>
+                    </tr>
+                    <tr>
+                        <td class="text-start fw-bold">Room Sharing Type</td>
+                        <td>Quad Sharing</td>
+                        <td class="bg-gold-soft">Quad / Triple Option</td>
+                        <td class="fw-bold">Twin Sharing</td>
+                    </tr>
+                    <tr>
+                        <td class="text-start fw-bold">Transport</td>
+                        <td>Shared AC Bus</td>
+                        <td class="bg-gold-soft">Luxury AC Group Coach</td>
+                        <td>Premium / Private Option</td>
+                    </tr>
+                    <tr>
+                        <td class="text-start fw-bold">Meals</td>
+                        <td>Optional / Self</td>
+                        <td class="bg-gold-soft fw-bold text-emerald-medium">Breakfast Included</td>
+                        <td class="fw-bold text-emerald-medium">Full Buffet Meals</td>
+                    </tr>
+                    <tr>
+                        <td class="text-start fw-bold">Ziyarat Tours</td>
+                        <td>Group Ziyarat</td>
+                        <td class="bg-gold-soft">Group Ziyarat</td>
+                        <td>Private / VIP Option</td>
+                    </tr>
+                    <tr>
+                        <td class="text-start fw-bold">Umrah Kit</td>
+                        <td>Basic Kit</td>
+                        <td class="bg-gold-soft">Standard Kit</td>
+                        <td>Premium VIP Kit</td>
+                    </tr>
+                    <tr>
+                        <td class="text-start fw-bold">Elderly Assistance</td>
+                        <td>Basic Support</td>
+                        <td class="bg-gold-soft fw-bold">Dedicated Care</td>
+                        <td class="fw-bold text-gold">⭐ Priority Assistance</td>
+                    </tr>
+                    <tr>
+                        <td class="text-start fw-bold">Scholar Guidance</td>
+                        <td><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+                        <td class="bg-gold-soft"><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+                        <td><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+                    </tr>
+                    <tr>
+                        <td class="text-start fw-bold">WhatsApp & Phone Support</td>
+                        <td>24/7 Group</td>
+                        <td class="bg-gold-soft fw-bold">24/7 Dedicated</td>
+                        <td class="fw-bold">24/7 VIP Dedicated</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p class="small text-muted mt-3 mb-0 text-center">
+            *<em>Starting price per person. Final price depends on travel date, airline, hotel availability, room occupancy and selected services.</em>
+        </p>
+    </div>
+
+    <!-- INCLUDED VS NOT INCLUDED CHECKLIST -->
+    <div class="row g-4 mb-5">
+        <div class="col-md-6">
+            <div class="card glass-card h-100 p-4 border-start border-4 border-success shadow-sm">
+                <h4 class="fw-extrabold text-success mb-3"><i class="bi bi-check-circle-fill me-2"></i> What is Included (Inclusions)</h4>
+                <ul class="list-unstyled small text-dark mb-0">
+                    <li class="mb-2"><i class="bi bi-check2 text-success me-2 fw-bold"></i> Return Airfare (Lucknow / Delhi departures)</li>
+                    <li class="mb-2"><i class="bi bi-check2 text-success me-2 fw-bold"></i> Umrah Visa & Saudi Health Insurance</li>
+                    <li class="mb-2"><i class="bi bi-check2 text-success me-2 fw-bold"></i> Hotel Accommodations in Makkah & Madinah</li>
+                    <li class="mb-2"><i class="bi bi-check2 text-success me-2 fw-bold"></i> AC Transport for Jeddah-Makkah-Madinah transfers</li>
+                    <li class="mb-2"><i class="bi bi-check2 text-success me-2 fw-bold"></i> Guided Holy Ziyarat in Makkah & Madinah</li>
+                    <li class="mb-2"><i class="bi bi-check2 text-success me-2 fw-bold"></i> Step-by-Step Umrah Orientation & Fiqh Guidance</li>
+                    <li class="mb-2"><i class="bi bi-check2 text-success me-2 fw-bold"></i> Umrah Kit & Zamzam Water (subject to airline rules)</li>
+                    <li class="mb-0"><i class="bi bi-check2 text-success me-2 fw-bold"></i> 24/7 Hafiz Yusuf Malik team group care</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="col-md-6">
+            <div class="card glass-card h-100 p-4 border-start border-4 border-danger shadow-sm">
+                <h4 class="fw-extrabold text-danger mb-3"><i class="bi bi-x-circle-fill me-2"></i> What is Not Included (Exclusions)</h4>
+                <ul class="list-unstyled small text-dark mb-0">
+                    <li class="mb-2"><i class="bi bi-x text-danger me-2 fw-bold"></i> Personal shopping and private expenses</li>
+                    <li class="mb-2"><i class="bi bi-x text-danger me-2 fw-bold"></i> Meals unless specifically included in your tier</li>
+                    <li class="mb-2"><i class="bi bi-x text-danger me-2 fw-bold"></i> Room service, laundry & phone calls</li>
+                    <li class="mb-2"><i class="bi bi-x text-danger me-2 fw-bold"></i> Excess baggage charges beyond airline limit</li>
+                    <li class="mb-2"><i class="bi bi-x text-danger me-2 fw-bold"></i> Private taxi or unapproved private Ziyarat</li>
+                    <li class="mb-2"><i class="bi bi-x text-danger me-2 fw-bold"></i> Expiation / Dam / Fidya penalties if incurred</li>
+                    <li class="mb-0"><i class="bi bi-x text-danger me-2 fw-bold"></i> Government/airline charges introduced after booking</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- BUSINESS CONTACT CARD -->
+    <?php include __DIR__ . '/includes/contact_card.php'; ?>
+
+</div>
+
+<?php
+include_once __DIR__ . '/includes/footer.php';
+?>
