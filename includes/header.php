@@ -1,6 +1,9 @@
 <?php
 if (!isset($pageTitle)) {
-    $pageTitle = "Al-Habib Tours & Travels - Umrah & Hajj Services | Complete Miqat Knowledge System";
+    $pageTitle = "Al-Habib Tours & Travels | Lucknow Umrah Packages 2026 & Complete Guidance";
+}
+if (!isset($pageDescription)) {
+    $pageDescription = "Official portal of Al-Habib Tours & Travels, Bangarmau Unnao (UP). Lucknow & Delhi Umrah packages starting ₹99,000, Hafiz Yusuf Malik group departures, step-by-step Umrah guide with Duas, and verified Miqat rules.";
 }
 ?>
 <!DOCTYPE html>
@@ -9,7 +12,97 @@ if (!isset($pageTitle)) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo htmlspecialchars($pageTitle); ?></title>
-    <meta name="description" content="Official website of Al-Habib Tours and Travels. Complete educational Miqat Knowledge Center, Umrah & Hajj package booking, trilingual guidance (English, Hindi, Urdu) led by Hafiz Yusuf Malik.">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="<?php echo htmlspecialchars($pageDescription); ?>">
+    <meta name="keywords" content="Umrah packages Lucknow, Umrah packages 2026, Lucknow to Makkah Umrah, Hafiz Yusuf Malik Bangarmau, Al Habib Tours Unnao, Miqat rules air travel, Dam rulings Umrah, Step by step Umrah guide Duas, Tan'im Masjid Aisha rules">
+    <meta name="author" content="Sahil Khan (Software Engineer)">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <link rel="canonical" href="https://alhabibtours.com/">
+
+    <!-- Open Graph Social Meta Tags -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="<?php echo htmlspecialchars($pageTitle); ?>">
+    <meta property="og:description" content="<?php echo htmlspecialchars($pageDescription); ?>">
+    <meta property="og:url" content="https://alhabibtours.com/">
+    <meta property="og:site_name" content="Al-Habib Tours & Travels">
+    <meta property="og:image" content="https://alhabibtours.com/assets/images/kaaba_1.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="<?php echo htmlspecialchars($pageTitle); ?>">
+    <meta name="twitter:description" content="<?php echo htmlspecialchars($pageDescription); ?>">
+    <meta name="twitter:image" content="https://alhabibtours.com/assets/images/kaaba_1.jpg">
+
+    <!-- Schema.org JSON-LD Structured Data for LocalBusiness & TravelAgency -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "TravelAgency",
+      "name": "Al-Habib Tours & Travels",
+      "image": "https://alhabibtours.com/assets/images/kaaba_1.jpg",
+      "@id": "https://alhabibtours.com/",
+      "url": "https://alhabibtours.com/",
+      "telephone": "+917860432995",
+      "priceRange": "₹99,000 - ₹1,39,000",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Lucknow Road",
+        "addressLocality": "Bangarmau",
+        "addressRegion": "Unnao, Uttar Pradesh",
+        "postalCode": "209868",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 26.9113,
+        "longitude": 80.2081
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "08:00",
+        "closes": "22:00"
+      },
+      "sameAs": [
+        "https://wa.me/917860432995"
+      ]
+    }
+    </script>
+
+    <!-- Schema.org FAQPage Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "What is the starting price for 15-day Umrah package from Lucknow?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Al-Habib Tours & Travels offers benchmarked 15-day Lucknow Umrah packages starting from ₹99,000 for Economy, ₹1,19,000 for Comfort (Most Popular), and ₹1,39,000 for Premium VIP Luxury."
+        }
+      }, {
+        "@type": "Question",
+        "name": "What is the Miqat boundary for flight departures from India to Jeddah?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pilgrims flying directly from India to Jeddah pass the parallel Miqat boundary (Yalamlam / Al-Juhfah) in mid-air approximately 20 to 30 minutes before reaching Jeddah airport. Ihram garments must be put on before boarding or in flight before crossing this point."
+        }
+      }]
+    }
+    </script>
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
