@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "routes": [
+    { "src": "/assets/(.*)", "dest": "/assets/$1" },
+    { "src": "/", "dest": "/index.html" },
+    { "src": "/index", "dest": "/index.html" },
+    { "src": "/index.php", "dest": "/index.html" },
+    { "src": "/miqat", "dest": "/miqat.html" },
+    { "src": "/miqat.php", "dest": "/miqat.html" },
+    { "src": "/umrah_guide", "dest": "/umrah_guide.html" },
+    { "src": "/umrah_guide.php", "dest": "/umrah_guide.html" },
+    { "src": "/tanim", "dest": "/tanim.html" },
+    { "src": "/tanim.php", "dest": "/tanim.html" },
+    { "src": "/sources", "dest": "/sources.html" },
+    { "src": "/sources.php", "dest": "/sources.html" },
+    { "src": "/packages", "dest": "/packages.html" },
+    { "src": "/packages.php", "dest": "/packages.html" },
+    { "src": "/contact", "dest": "/contact.html" },
+    { "src": "/contact.php", "dest": "/contact.html" }
+  ]
+}

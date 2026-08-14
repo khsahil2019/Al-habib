@@ -1,0 +1,119 @@
+
+<section class="bg-gradient-emerald text-white py-5">
+    <div class="container text-center py-3">
+        <span class="badge bg-gold text-dark fw-bold px-3 py-2 rounded-pill mb-3">
+            <i class="bi bi-envelope-fill me-1"></i> GET IN TOUCH
+        </span>
+        <h1 class="display-5 fw-extrabold mb-3">Contact Al-Habib Tours & Travels</h1>
+        <p class="lead text-white-80 max-w-700 mx-auto">
+            We are here to assist you with Umrah & Hajj package bookings, group departures from Uttar Pradesh, and Miqat travel guidance.
+        </p>
+    </div>
+</section>
+
+<div class="container py-5">
+    <div class="row g-4">
+        <!-- Contact Form -->
+        <div class="col-lg-7">
+            <div class="card glass-card border-0 p-4 shadow-sm">
+                <h4 class="fw-bold text-emerald-medium mb-3"><i class="bi bi-chat-dots-fill me-2"></i> Send Us an Inquiry</h4>
+                <form id="contactForm" onsubmit="handleContactSubmit(event)">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label class="form-label fw-bold small">Your Full Name</label>
+                            <input type="text" id="cName" class="form-control" placeholder="e.g. Mohammad Ali" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-bold small">Phone Number / WhatsApp</label>
+                            <input type="tel" id="cPhone" class="form-control" placeholder="e.g. +91 9876543210" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-bold small">City / Location</label>
+                            <input type="text" id="cCity" class="form-control" placeholder="e.g. Bangarmau, Unnao, Lucknow" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-bold small">Service Required</label>
+                            <select id="cService" class="form-select" required>
+                                <option value="Umrah Package Booking">Umrah Package Booking</option>
+                                <option value="Hajj Package Booking">Hajj Package Booking</option>
+                                <option value="Miqat Fiqh Guidance">Miqat Travel Guidance</option>
+                                <option value="Custom Group Departure">Custom Group Departure</option>
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label fw-bold small">Your Message / Travel Details</label>
+                            <textarea id="cMessage" class="form-control" rows="4" placeholder="Tell us your tentative departure date, number of pilgrims, etc." required></textarea>
+                        </div>
+                    </div>
+                    <div class="mt-4 text-end">
+                        <button type="submit" class="btn btn-gold btn-lg fw-bold shadow-sm">
+                            <i class="bi bi-whatsapp me-2"></i> Submit Inquiry via WhatsApp
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Contact Info Box -->
+        <div class="col-lg-5">
+            <div class="card border-0 bg-dark-emerald text-white p-4 rounded-4 shadow-sm h-100">
+                <h4 class="fw-bold text-gold mb-4"><i class="bi bi-building-fill me-2"></i> Office & Contact Details</h4>
+
+                <div class="d-flex align-items-start mb-4">
+                    <div class="bg-gold text-dark p-3 rounded-circle me-3 fs-5">
+                        <i class="bi bi-person-fill"></i>
+                    </div>
+                    <div>
+                        <h6 class="fw-bold text-white mb-1">Lead Contact Person</h6>
+                        <p class="mb-0 text-white-80">Hafiz Yusuf Malik</p>
+                    </div>
+                </div>
+
+                <div class="d-flex align-items-start mb-4">
+                    <div class="bg-gold text-dark p-3 rounded-circle me-3 fs-5">
+                        <i class="bi bi-telephone-fill"></i>
+                    </div>
+                    <div>
+                        <h6 class="fw-bold text-white mb-1">Direct Call & WhatsApp</h6>
+                        <p class="mb-1"><a href="tel:+917860432995" class="text-gold fw-bold text-decoration-none">+91 7860432995</a></p>
+                        <span class="badge bg-success small">Available 24/7 for Pilgrims</span>
+                    </div>
+                </div>
+
+                <div class="d-flex align-items-start mb-4">
+                    <div class="bg-gold text-dark p-3 rounded-circle me-3 fs-5">
+                        <i class="bi bi-geo-alt-fill"></i>
+                    </div>
+                    <div>
+                        <h6 class="fw-bold text-white mb-1">Head Office Address</h6>
+                        <p class="mb-0 text-white-80">
+                            Al-Habib Tours and Travels<br>
+                            Lucknow Road, Bangarmau, Unnao,<br>
+                            Uttar Pradesh, India
+                        </p>
+                    </div>
+                </div>
+
+                <div class="p-3 bg-emerald-medium rounded-3 mt-auto">
+                    <h6 class="fw-bold text-white mb-1"><i class="bi bi-shield-check text-gold me-1"></i> Authorized Travel Agency</h6>
+                    <p class="small text-white-80 mb-0">Providing transparent pricing, authentic bookings, and complete group coordination for Hajj & Umrah.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+function handleContactSubmit(e) {
+    e.preventDefault();
+    const name = document.getElementById('cName').value;
+    const phone = document.getElementById('cPhone').value;
+    const city = document.getElementById('cCity').value;
+    const service = document.getElementById('cService').value;
+    const msg = document.getElementById('cMessage').value;
+
+    const waText = `Assalamu Alaikum Hafiz Yusuf Malik Sahab,\n\nName: ${name}\nPhone: ${phone}\nCity: ${city}\nService: ${service}\nMessage: ${msg}`;
+    window.open(`https://wa.me/917860432995?text=${encodeURIComponent(waText)}`, '_blank');
+}
+</script>
+
