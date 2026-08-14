@@ -43,10 +43,10 @@ include_once __DIR__ . '/includes/source_badges.php';
                 </div>
 
                 <div class="d-flex justify-content-center gap-3 flex-wrap mb-5">
-                    <a href="packages.php" class="btn btn-gold btn-lg px-4 py-3 fw-extrabold shadow">
+                    <a href="packages.html" class="btn btn-gold btn-lg px-4 py-3 fw-extrabold shadow">
                         <i class="bi bi-box-seam-fill me-2"></i> View Lucknow Packages & Rates
                     </a>
-                    <a href="miqat.php" class="btn btn-emerald btn-lg px-4 py-3 fw-extrabold shadow">
+                    <a href="miqat.html" class="btn btn-emerald btn-lg px-4 py-3 fw-extrabold shadow">
                         <i class="bi bi-compass-fill me-2"></i> Open Miqat Knowledge System
                     </a>
                 </div>
@@ -156,7 +156,7 @@ include_once __DIR__ . '/includes/source_badges.php';
                                 <span class="d-block small text-muted">Starting From</span>
                                 <span class="fs-4 fw-extrabold text-emerald-medium">₹99,000</span> <span class="small text-muted">/ person</span>
                             </div>
-                            <a href="packages.php" class="btn btn-gold fw-bold shadow">
+                            <a href="packages.html" class="btn btn-gold fw-bold shadow">
                                 View Package
                             </a>
                         </div>
@@ -189,7 +189,7 @@ include_once __DIR__ . '/includes/source_badges.php';
                                 <span class="d-block small text-muted">Starting From</span>
                                 <span class="fs-4 fw-extrabold text-gold">₹1,19,000</span> <span class="small text-muted">/ person</span>
                             </div>
-                            <a href="packages.php" class="btn btn-gold fw-bold shadow">
+                            <a href="packages.html" class="btn btn-gold fw-bold shadow">
                                 View Package
                             </a>
                         </div>
@@ -222,7 +222,7 @@ include_once __DIR__ . '/includes/source_badges.php';
                                 <span class="d-block small text-muted">Starting From</span>
                                 <span class="fs-4 fw-extrabold text-emerald-medium">₹1,39,000</span> <span class="small text-muted">/ person</span>
                             </div>
-                            <a href="packages.php" class="btn btn-gold fw-bold shadow">
+                            <a href="packages.html" class="btn btn-gold fw-bold shadow">
                                 View Package
                             </a>
                         </div>
@@ -245,7 +245,7 @@ include_once __DIR__ . '/includes/source_badges.php';
         <div class="row g-4 justify-content-center">
             <!-- Button 1 -->
             <div class="col-md-4">
-                <a href="miqat.php#airTravel" class="text-decoration-none">
+                <a href="miqat.html#airTravel" class="text-decoration-none">
                     <div class="giant-action-btn border-emerald-medium h-100">
                         <div class="fs-1 text-gold"><i class="bi bi-airplane-fill"></i></div>
                         <div class="lang-text lang-en">
@@ -266,7 +266,7 @@ include_once __DIR__ . '/includes/source_badges.php';
 
             <!-- Button 2 -->
             <div class="col-md-4">
-                <a href="miqat.php#crossedMiqat" class="text-decoration-none">
+                <a href="miqat.html#crossedMiqat" class="text-decoration-none">
                     <div class="giant-action-btn border-warning h-100">
                         <div class="fs-1 text-warning"><i class="bi bi-exclamation-triangle-fill"></i></div>
                         <div class="lang-text lang-en">
@@ -287,7 +287,7 @@ include_once __DIR__ . '/includes/source_badges.php';
 
             <!-- Button 3 -->
             <div class="col-md-4">
-                <a href="tanim.php" class="text-decoration-none">
+                <a href="tanim.html" class="text-decoration-none">
                     <div class="giant-action-btn border-info h-100">
                         <div class="fs-1 text-info"><i class="bi bi-building-fill-check"></i></div>
                         <div class="lang-text lang-en">
@@ -319,7 +319,7 @@ include_once __DIR__ . '/includes/source_badges.php';
                 <p class="text-secondary mb-0 fw-medium">Answer 7 quick questions to receive customized educational guidance and scholar consultation prompts.</p>
             </div>
             <div class="col-md-4 text-md-end mt-3 mt-md-0">
-                <a href="miqat.php#decisionTreeSection" class="btn btn-emerald fw-bold shadow">
+                <a href="miqat.html#decisionTreeSection" class="btn btn-emerald fw-bold shadow">
                     Explore Full Decision Tree <i class="bi bi-arrow-right me-1"></i>
                 </a>
             </div>

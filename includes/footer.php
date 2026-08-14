@@ -34,13 +34,13 @@
             <div class="col-lg-2 col-md-6">
                 <h6 class="fw-extrabold text-gold text-uppercase tracking-wider mb-3">Quick Links</h6>
                 <ul class="list-unstyled small mb-0">
-                    <li class="mb-2"><a href="index.php"><i class="bi bi-chevron-right me-1 text-gold"></i> Home</a></li>
-                    <li class="mb-2"><a href="umrah_guide.php"><i class="bi bi-chevron-right me-1 text-gold"></i> Umrah Guide & Duas</a></li>
-                    <li class="mb-2"><a href="miqat.php"><i class="bi bi-chevron-right me-1 text-gold"></i> Miqat Guide</a></li>
-                    <li class="mb-2"><a href="tanim.php"><i class="bi bi-chevron-right me-1 text-gold"></i> Tan'im & Al-Hill</a></li>
-                    <li class="mb-2"><a href="sources.php"><i class="bi bi-chevron-right me-1 text-gold"></i> Verified Sources</a></li>
-                    <li class="mb-2"><a href="packages.php"><i class="bi bi-chevron-right me-1 text-gold"></i> Tour Packages</a></li>
-                    <li class="mb-0"><a href="contact.php"><i class="bi bi-chevron-right me-1 text-gold"></i> Contact Us</a></li>
+                    <li class="mb-2"><a href="index.html"><i class="bi bi-chevron-right me-1 text-gold"></i> Home</a></li>
+                    <li class="mb-2"><a href="umrah_guide.html"><i class="bi bi-chevron-right me-1 text-gold"></i> Umrah Guide & Duas</a></li>
+                    <li class="mb-2"><a href="miqat.html"><i class="bi bi-chevron-right me-1 text-gold"></i> Miqat Guide</a></li>
+                    <li class="mb-2"><a href="tanim.html"><i class="bi bi-chevron-right me-1 text-gold"></i> Tan'im & Al-Hill</a></li>
+                    <li class="mb-2"><a href="sources.html"><i class="bi bi-chevron-right me-1 text-gold"></i> Verified Sources</a></li>
+                    <li class="mb-2"><a href="packages.html"><i class="bi bi-chevron-right me-1 text-gold"></i> Tour Packages</a></li>
+                    <li class="mb-0"><a href="contact.html"><i class="bi bi-chevron-right me-1 text-gold"></i> Contact Us</a></li>
                 </ul>
             </div>
 
@@ -48,11 +48,11 @@
             <div class="col-lg-3 col-md-6">
                 <h6 class="fw-extrabold text-gold text-uppercase tracking-wider mb-3">Fiqh Educational Modules</h6>
                 <ul class="list-unstyled small mb-0">
-                    <li class="mb-2"><a href="miqat.php#airTravel"><i class="bi bi-airplane-fill me-1 text-gold"></i> Air Travel Miqat Rules</a></li>
-                    <li class="mb-2"><a href="miqat.php#crossedMiqat"><i class="bi bi-exclamation-triangle-fill me-1 text-gold"></i> Crossed Miqat Scenarios</a></li>
-                    <li class="mb-2"><a href="miqat.php#commonMistakes"><i class="bi bi-x-circle-fill me-1 text-gold"></i> Common Miqat Mistakes</a></li>
-                    <li class="mb-2"><a href="miqat.php#damExplained"><i class="bi bi-shield-fill-check me-1 text-gold"></i> Dam Rules Explained</a></li>
-                    <li class="mb-0"><a href="tanim.php#alHill"><i class="bi bi-building-fill-check me-1 text-gold"></i> Tan'im & Al-Hill Guide</a></li>
+                    <li class="mb-2"><a href="miqat.html#airTravel"><i class="bi bi-airplane-fill me-1 text-gold"></i> Air Travel Miqat Rules</a></li>
+                    <li class="mb-2"><a href="miqat.html#crossedMiqat"><i class="bi bi-exclamation-triangle-fill me-1 text-gold"></i> Crossed Miqat Scenarios</a></li>
+                    <li class="mb-2"><a href="miqat.html#commonMistakes"><i class="bi bi-x-circle-fill me-1 text-gold"></i> Common Miqat Mistakes</a></li>
+                    <li class="mb-2"><a href="miqat.html#damExplained"><i class="bi bi-shield-fill-check me-1 text-gold"></i> Dam Rules Explained</a></li>
+                    <li class="mb-0"><a href="tanim.html#alHill"><i class="bi bi-building-fill-check me-1 text-gold"></i> Tan'im & Al-Hill Guide</a></li>
                 </ul>
             </div>
 

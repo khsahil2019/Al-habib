@@ -36,7 +36,7 @@ if (!isset($pageTitle)) {
     </a>
 </div>
 
-<!-- Header Master Wrapper (Light Theme Top Info + Single-Line Clean Navbar) -->
+<!-- Header Master Wrapper (Clean Responsive Navbar) -->
 <header class="master-header sticky-top">
     <!-- Top Contact Strip -->
     <div class="top-info-strip py-2">
@@ -71,11 +71,11 @@ if (!isset($pageTitle)) {
         </div>
     </div>
 
-    <!-- Main Navigation Bar (Clean Single Line Design) -->
+    <!-- Main Navigation Bar (Clean HTML Standard Paths) -->
     <nav class="navbar navbar-expand-xl bg-white navbar-light py-2 shadow-sm">
         <div class="container">
             <!-- Brand Logo -->
-            <a class="navbar-brand d-flex align-items-center me-3" href="index.php">
+            <a class="navbar-brand d-flex align-items-center me-3" href="index.html">
                 <div class="navbar-brand-logo rounded-circle me-2 d-flex align-items-center justify-content-center">
                     <i class="bi bi-moon-stars-fill text-dark fs-5"></i>
                 </div>
@@ -94,7 +94,7 @@ if (!isset($pageTitle)) {
             <div class="collapse navbar-collapse" id="navbarContent">
                 <ul class="navbar-nav me-auto mb-2 mb-xl-0 ms-xl-2 gap-1">
                     <li class="nav-item">
-                        <a class="nav-link text-nowrap" href="index.php">
+                        <a class="nav-link text-nowrap" href="index.html">
                             <i class="bi bi-house-door-fill me-1 text-emerald-medium"></i>
                             <span class="lang-text lang-en">Home</span>
                             <span class="lang-text lang-hi d-none">होम</span>
@@ -102,7 +102,7 @@ if (!isset($pageTitle)) {
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-nowrap" href="umrah_guide.php">
+                        <a class="nav-link text-nowrap" href="umrah_guide.html">
                             <i class="bi bi-book-half me-1 text-emerald-medium"></i>
                             <span class="lang-text lang-en">Umrah Guide & Duas</span>
                             <span class="lang-text lang-hi d-none">उमराह गाइड व दुआएं</span>
@@ -110,7 +110,7 @@ if (!isset($pageTitle)) {
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-nowrap" href="miqat.php">
+                        <a class="nav-link text-nowrap" href="miqat.html">
                             <i class="bi bi-compass-fill me-1 text-emerald-medium"></i>
                             <span class="lang-text lang-en">Miqat Guide</span>
                             <span class="lang-text lang-hi d-none">मीक़ात गाइड</span>
@@ -118,7 +118,7 @@ if (!isset($pageTitle)) {
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-nowrap" href="tanim.php">
+                        <a class="nav-link text-nowrap" href="tanim.html">
                             <i class="bi bi-geo-fill me-1 text-emerald-medium"></i>
                             <span class="lang-text lang-en">Tan'im & Al-Hill</span>
                             <span class="lang-text lang-hi d-none">तनीम व अल-हिल</span>
@@ -126,7 +126,7 @@ if (!isset($pageTitle)) {
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-nowrap" href="packages.php">
+                        <a class="nav-link text-nowrap" href="packages.html">
                             <i class="bi bi-box-seam-fill me-1 text-emerald-medium"></i>
                             <span class="lang-text lang-en">Packages</span>
                             <span class="lang-text lang-hi d-none">टूर पैकेज</span>
@@ -134,7 +134,7 @@ if (!isset($pageTitle)) {
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-nowrap" href="contact.php">
+                        <a class="nav-link text-nowrap" href="contact.html">
                             <i class="bi bi-envelope-fill me-1 text-emerald-medium"></i>
                             <span class="lang-text lang-en">Contact</span>
                             <span class="lang-text lang-hi d-none">संपर्क</span>

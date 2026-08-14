@@ -13,7 +13,7 @@
     { "src": "/tanim", "dest": "/tanim.html" },
     { "src": "/tanim.php", "dest": "/tanim.html" },
     { "src": "/sources", "dest": "/sources.html" },
-    { "src": "/sources.php", "dest": "/sources.html" },
+    { "src": "/sources.html", "dest": "/sources.html" },
     { "src": "/packages", "dest": "/packages.html" },
     { "src": "/packages.php", "dest": "/packages.html" },
     { "src": "/contact", "dest": "/contact.html" },

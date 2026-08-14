@@ -1,7 +1,7 @@
 <?php
 $pageTitle = "Complete Step-by-Step Umrah Guide with All Authentic Duas | Al-Habib Tours & Travels";
-include_once __DIR__ . '/includes/header.php';
-include_once __DIR__ . '/includes/source_badges.php';
+require __DIR__ . '/includes/header.php';
+require __DIR__ . '/includes/source_badges.php';
 ?>
 
 <!-- Hero Banner -->
@@ -294,10 +294,10 @@ include_once __DIR__ . '/includes/source_badges.php';
     </div>
 
     <!-- BUSINESS CONTACT CARD -->
-    <?php include __DIR__ . '/includes/contact_card.php'; ?>
+    <?php require __DIR__ . '/includes/contact_card.php'; ?>
 
 </div>
 
 <?php
-include_once __DIR__ . '/includes/footer.php';
+require __DIR__ . '/includes/footer.php';
 ?>

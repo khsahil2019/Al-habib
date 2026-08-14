@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Al-Habib Tours & Travels - Master Light Theme System & Local Image Rules
+   Al-Habib Tours & Travels - Master Light Theme System & Premium CSS Aesthetics
    ========================================================================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Noto+Nastaliq+Urdu:wght@400;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap');
@@ -28,6 +28,25 @@
     --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
     --shadow-md: 0 10px 25px -5px rgba(0, 0, 0, 0.08);
     --shadow-lg: 0 20px 35px -10px rgba(0, 0, 0, 0.12);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom Sleek Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+    background: #057a58;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #044e3a;
 }
 
 body {
@@ -110,9 +129,9 @@ body {
     }
 }
 
-/* Light Theme Banner */
+/* Light Theme Hero Banner */
 .bg-gradient-emerald, .hero-section {
-    background: linear-gradient(135deg, rgba(230, 244, 234, 0.92) 0%, rgba(255, 255, 255, 0.95) 100%), url('../images/kaaba_1.jpg') center/cover no-repeat !important;
+    background: linear-gradient(135deg, rgba(230, 244, 234, 0.92) 0%, rgba(255, 255, 255, 0.96) 100%), url('../images/kaaba_1.jpg') center/cover no-repeat !important;
     color: #0f172a !important;
     position: relative;
     border-bottom: 1px solid #cbd5e1;
@@ -133,7 +152,7 @@ body {
     color: #334155 !important;
 }
 
-/* Light Theme Cards */
+/* Light Theme Cards & Micro-Animations */
 .glass-card, .card {
     background: #ffffff !important;
     border: 1px solid #cbd5e1 !important;
@@ -151,9 +170,17 @@ body {
 }
 
 .glass-card:hover, .card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-6px);
     box-shadow: var(--shadow-lg);
     border-color: var(--emerald-medium) !important;
+}
+
+.hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hover-lift:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(5, 122, 88, 0.15) !important;
 }
 
 /* HIGH-PRIORITY DISCLAIMER BOX OVERRIDES (Bulleteproof Dark Text) */
@@ -252,6 +279,14 @@ body {
     transform: translateY(-6px);
     border-color: var(--emerald-medium);
     box-shadow: var(--shadow-lg);
+}
+
+/* Table Hover Aesthetics */
+.table tbody tr {
+    transition: background-color 0.2s ease;
+}
+.table tbody tr:hover {
+    background-color: #f1f5f9 !important;
 }
 
 /* Floating Contact Widget */
