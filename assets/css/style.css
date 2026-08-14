@@ -32,18 +32,20 @@
 
 html {
     scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
 }
 
 /* Custom Sleek Scrollbar */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 8px;
+    height: 8px;
 }
 ::-webkit-scrollbar-track {
     background: #f1f5f9;
 }
 ::-webkit-scrollbar-thumb {
     background: #057a58;
-    border-radius: 5px;
+    border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
     background: #044e3a;
@@ -94,6 +96,7 @@ body {
     background: var(--gold-gradient);
     border: 2px solid #044e3a;
     box-shadow: 0 0 12px rgba(245, 158, 11, 0.3);
+    flex-shrink: 0;
 }
 
 .nav-link {
@@ -131,7 +134,7 @@ body {
 
 /* Light Theme Hero Banner */
 .bg-gradient-emerald, .hero-section {
-    background: linear-gradient(135deg, rgba(230, 244, 234, 0.92) 0%, rgba(255, 255, 255, 0.96) 100%), url('../images/kaaba_1.jpg') center/cover no-repeat !important;
+    background: linear-gradient(135deg, rgba(230, 244, 234, 0.94) 0%, rgba(255, 255, 255, 0.96) 100%), url('../images/kaaba_1.jpg') center/cover no-repeat !important;
     color: #0f172a !important;
     position: relative;
     border-bottom: 1px solid #cbd5e1;
@@ -170,7 +173,7 @@ body {
 }
 
 .glass-card:hover, .card:hover {
-    transform: translateY(-6px);
+    transform: translateY(-4px);
     box-shadow: var(--shadow-lg);
     border-color: var(--emerald-medium) !important;
 }
@@ -179,7 +182,7 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .hover-lift:hover {
-    transform: translateY(-6px);
+    transform: translateY(-4px);
     box-shadow: 0 12px 25px rgba(5, 122, 88, 0.15) !important;
 }
 
@@ -261,7 +264,7 @@ body {
 /* Giant 3 Quick Buttons - Light Theme */
 .giant-action-btn {
     border-radius: 20px;
-    padding: 26px 20px;
+    padding: 24px 18px;
     font-weight: 800;
     display: flex;
     align-items: center;
@@ -276,12 +279,17 @@ body {
 }
 
 .giant-action-btn:hover {
-    transform: translateY(-6px);
+    transform: translateY(-4px);
     border-color: var(--emerald-medium);
     box-shadow: var(--shadow-lg);
 }
 
-/* Table Hover Aesthetics */
+/* Table Responsive Smooth Touch Scrolling */
+.table-responsive {
+    -webkit-overflow-scrolling: touch;
+    border-radius: 16px;
+}
+
 .table tbody tr {
     transition: background-color 0.2s ease;
 }
@@ -292,22 +300,22 @@ body {
 /* Floating Contact Widget */
 .floating-contact-widget {
     position: fixed;
-    bottom: 25px;
-    right: 25px;
+    bottom: 20px;
+    right: 20px;
     z-index: 9999;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 10px;
 }
 
 .floating-btn {
-    width: 56px;
-    height: 56px;
+    width: 52px;
+    height: 52px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     color: white !important;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
     transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -318,7 +326,7 @@ body {
 .floating-btn-phone { background: var(--emerald-medium); }
 
 .floating-btn:hover {
-    transform: scale(1.15) rotate(5deg);
+    transform: scale(1.12);
     color: white !important;
 }
 
@@ -344,7 +352,7 @@ body {
 .site-footer {
     background: #044e3a !important;
     color: #ffffff !important;
-    padding: 70px 0 30px;
+    padding: 60px 0 30px;
     border-top: 4px solid var(--gold-medium);
 }
 
@@ -378,15 +386,99 @@ body[lang="ur"], .lang-ur {
     line-height: 2;
 }
 
-/* Responsive Overrides */
-@media (max-width: 768px) {
+/* ==========================================================================
+   MOBILE & TABLET RESPONSIVE MEDIA QUERIES (320px - 991px)
+   ========================================================================== */
+
+@media (max-width: 991.98px) {
+    .border-start-md {
+        border-left: none !important;
+        border-top: 1px solid #cbd5e1 !important;
+        padding-top: 1.5rem !important;
+        margin-top: 1rem !important;
+    }
+}
+
+@media (max-width: 767.98px) {
     .hero-section {
-        padding: 50px 0 40px;
+        padding: 40px 0 30px;
     }
+    
     .display-3 {
-        font-size: 2rem;
+        font-size: 1.9rem !important;
+        line-height: 1.25;
     }
-    .display-5 {
-        font-size: 1.8rem;
+    
+    .display-4 {
+        font-size: 1.75rem !important;
+        line-height: 1.3;
+    }
+    
+    .display-5, .display-6 {
+        font-size: 1.5rem !important;
+    }
+
+    .lead {
+        font-size: 1rem !important;
+    }
+
+    .arabic-font {
+        font-size: 1.35rem !important;
+        line-height: 2;
+    }
+
+    /* Mobile Buttons 100% Width Stacking */
+    .hero-section .d-flex.gap-3 {
+        flex-direction: column !important;
+        width: 100%;
+    }
+
+    .hero-section .btn-lg {
+        width: 100% !important;
+    }
+
+    .giant-action-btn {
+        padding: 20px 14px;
+    }
+
+    /* Mobile Floating Widget Adjustments */
+    .floating-contact-widget {
+        bottom: 15px;
+        right: 15px;
+        gap: 8px;
+    }
+    
+    .floating-btn {
+        width: 48px;
+        height: 48px;
+        font-size: 1.3rem;
+    }
+
+    .stat-box h3 {
+        font-size: 1.25rem;
+    }
+
+    .stat-box span {
+        font-size: 0.78rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .container {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+    .card-body {
+        padding: 1.25rem !important;
+    }
+
+    .navbar-brand-logo {
+        width: 36px;
+        height: 36px;
+    }
+
+    .navbar-brand span.fs-5 {
+        font-size: 1.1rem !important;
     }
 }
